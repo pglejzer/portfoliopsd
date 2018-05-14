@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WeekDev31</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+        crossorigin="anonymous">\
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <header class="header" id="home">
+        <nav class="nav" id="nav">
+            <a class="nav__logo--link" href="home">
+                <span class="nav__logo--text">mealex.</span>
+            </a>
+            <!-- <button class="nav__button--toggle" id="menu-button">
+                    <img alt="show menu" src="" class="nav__logo--hamburger">
+                </button> -->
+            <ul class="nav__ul">
+                <li class="nav__li">
+                    <a class="nav__link" href="#home">home</a>
+                </li>
+                <li class="nav__li">
+                    <a class="nav__link" href="#about">about</a>
+                </li>
+                <li class="nav__li">
+                    <a class="nav__link" href="#service">service</a>
+                </li>
+                <li class="nav__li">
+                    <a class="nav__link" href="#portfolio">portfolio</a>
+                </li>
+                <li class="nav__li">
+                    <a class="nav__link" href="#contact">contact</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="header__text">
+            <div class="img"></div>
+            <h1 class="header__h1">alex vidal</h1>
+            <p class="header__p">Full Stack Developer</p>
+            <div class="header__buttons">
+                <a class="header_a" href="">
+                    <button class="header__button header__button--hire">HIRE ME</button>
+                </a>
+                <a class="header_a" href="">
+                    <button class="header__button header__button--explore">EXPLORE MORE</button>
+                </a>
+            </div>
+        </div>
+    </header>
+    <section class="about" id="about">
+        <div class="about__header">
+            <h2 class="about__h2">ABOUT</h2>
+            <img class="about__img" src="images/about/span-hr.png" alt="line">
+            <div class="about_p">
+                <p class="about__p--text">Hello! I'm Alex, a full stuck developer, a Ruby enthusiast, and a guy slighty obsessed for code quality.
+                    Also I'm a co-founder of pykod.com. I’m currently available for freelance work. If you have a project
+                    that you want to get started or think you need my help with something, then get in touch.</p>
+                <a class="about__p--link" href="#">
+                    <button class="about__button">DOWNLOAD MY CV</button>
+                </a>
+            </div>
+        </div>
+        <div class="about__skills">
+            <h5 class="about__h5">MY SKILLS</h5>
+            <img src="images/services/span-hr.png" alt="line">
+            <div class="about__row">
+                <div class="about__column">
+                    <div class="about__h">
+                        <h6 class="about__h6">
+                            HTML/CSS
+                        </h6>
+                        <div class="about__bar">
+                            <span class="about__bar--span">
+                                320%
+                            </span>
+                        </div>
+                    </div>
+                    <div class="about__h about__h--down">
+                        <h6 class="about__h6">
+                            PYTHON
+                        </h6>
+                        <div class="about__bar">
+                            <span class="about__bar--span">
+                                185%
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about__column about__middle">
+                    <div class="about__h">
+                        <h6 class="about__h6">
+                            JAVASCRIPT
+                        </h6>
+                        <div class="about__bar">
+                            <span class="about__bar--span">
+                                220%
+                            </span>
+                        </div>
+                    </div>
+                    <div class="about__h">
+                        <h6 class="about__h6 about__h--down">
+                            RUBY
+                        </h6>
+                        <div class="about__bar">
+                            <span class="about__bar--span">
+                                335%
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about__column">
+                    <div class="about__h">
+                        <h6 class="about__h6">
+                            PHP
+                        </h6>
+                        <div class="about__bar">
+                            <span class="about__bar--span">
+                                250%
+                            </span>
+                        </div>
+                    </div>
+                    <div class="about__h about__h--down">
+                        <h6 class="about__h6">
+                            JAVA
+                        </h6>
+                        <div class="about__bar">
+                            <span class="about__bar--span">
+                                325%
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="background__img"></section>
+    <section class="services" id="service">
+        <h5 class="services_h5">WHAT I DO</h5>
+        <img src="images/services/span-hr.png" alt="line">
+        <div class="services__container">
+            <div class="services__column services__column--front">
+                <img class="services__img--monitor" src="images/services/monitor.png" alt="">
+                <h4 class="services__h4">Front-end</h4>
+                <p class="services__p">As a javascript developer, I have experience in HTML5 and CSS3 techniques working with jQuery or more advanced
+                    javascript MVC frameworks such as angular</p>
+            </div>
+            <div class="services__column services__column--back">
+                <img class="services__img--back" src="images/services/monitor.png" alt="">
+                <h4 class="services__h4">Back-end</h4>
+                <p class="services__p">Utilising php frameworks such as Zend or creating bespoke code, I've written services supporting thousands
+                    of users, including REST APIs, e-learning applications and more.</p>
+            </div>
+            <div class="services__column services__column--cont">
+                <img class="services__img--const" src="images/services/monitor.png" alt="">
+                <h4 class="services__h4">Consultancy</h4>
+                <p class="services__p">As well as providing development services, I can also help you decide strategic roadmaps via consultancy
+                    services.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <div class="portfolio__container">
+            <h3 class="portfolio__p">MY RECENT WORKS</h3>
+            <img src="images/services/span-hr.png" alt="line">
+            <div class="portfolio__gallery">
+                <div class="portoflio__row">
+                    <img src="images/portfoolio/img-1.png" alt="" class="portoflio__img">
+                    <img src="images/portfoolio/img-2.png" alt="" class="portoflio__img">
+                    <img src="images/portfoolio/img-3.png" alt="" class="portoflio__img">
+                </div>
+                <div class="portoflio__row">
+                    <img src="images/portfoolio/img-4.png" alt="" class="portoflio__img">
+                    <img src="images/portfoolio/img-5.png" alt="" class="portoflio__img">
+                    <img src="images/portfoolio/img-6.png" alt="" class="portoflio__img">
+                </div>
+            </div>
+            <a href="#">
+                <button class="portfolio__button">LOAD MORE</button>
+            </a>
+        </div>
+    </section>
+    <section class="funfact">
+        <div class="funfact__container">
+            <div class="funfact__column">
+                <h6 class="funfact__h6 count">10</h6>
+                <p class="funfact__p">Years Experience</p>
+            </div>
+            <div class="funfact__column" id="shiva">
+                <h6 class="funfact__h6 count">120</h6>
+                <p class="funfact__p">Projects Delivered</p>
+            </div>
+            <div class="funfact__column ">
+                <h6 class="funfact__h6" id="funfact-counting">10</h6>
+                <p class="funfact__p">Seconds on this site!</p>
+                <p class="funfact__p"> What are you waiting for?</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="form" id="contact">
+        <div class="form__container">
+            <h4 class="form__h4">Contact</h4>
+            <img src="images/services/span-hr.png" alt="line">
+            <div class="form__text">
+                <form class="form__main" action="#">
+                    <div class="form__row">
+                        <input type="text" placeholder="Name" required>
+                        <input type="email" placeholder="E-mail" required>
+                    </div>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                </form>
+            </div>
+            <div class="form__btn">
+                <a class="form__a" href="#">
+                    <button class="form__button">HIRE ME
+                        <img class="form__img" src="images/footer/send-icon.png" alt="icon send">
+                    </button>
+
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__links">
+                <a class="footer__a" href="#">
+                    <i class="fab fa-facebook-f fb"></i>
+                </a>
+                <a class="footer__a" href="#">
+                    <i class="fab fa-twitter tw"></i>
+                </a>
+                <a class="footer__a" href="#">
+                    <i class="fab fa-linkedin-in lin"></i>
+                </a>
+                <a class="footer__a" href="#">
+                    <i class="fab fa-google-plus-g gp"></i>
+                </a>
+            </div>
+            <div class="footer__text">
+                <p class="footer__p">2017. All Rights Reserved</p>
+            </div>
+            <div class="footer__third">
+                <a class="footer__a--btn" href="#home">
+                    <img class="footer__up" src="images/footer/up-icon.png" alt="icon up-icon">
+            </div>
+            </a>
+        </div>
+    </footer>
+</body>
+
+</html>
