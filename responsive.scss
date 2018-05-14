@@ -1,10 +1,10 @@
-@media (max-width:1299px){
-        .services {
-            .services_h5 {
-                font-size: 32px;
-            }
-            .services__container {
-                flex-direction: column;
+@media (max-width:1299px) {
+    .services {
+        .services_h5 {
+            font-size: 32px;
+        }
+        .services__container {
+            flex-direction: column;
             .services__column--front {
                 margin-bottom: 19px;
             }
@@ -16,9 +16,9 @@
             }
         }
     }
-
 }
-@media (max-width:1205px){
+
+@media (max-width:1205px) {
     .portfolio {
         .portfolio__container {
             .portfolio__gallery {
@@ -137,83 +137,69 @@
             flex-direction: column;
             padding-top: 30px;
             padding-bottom: 20px;
-            }
+        }
     }
-
-
     .footer {
         padding: 25px 0;
         .footer__container {
             justify-content: center;
             flex-direction: column;
+        }
+        .footer__text {
+            .footer__p {
+                padding: 18px 0;
             }
-            .footer__text {
-                .footer__p {
-                    padding: 18px 0;
+        }
+    }
+}
+
+@media (max-width:679px) {
+    .services {
+        margin: 0 20px;
+        .services_h5 {
+            font-size: 32px;
+            padding-top: 80px;
+        }
+        .services__container {
+            margin-top: 20px;
+            padding: 0 20px;
+            .services__column {
+                .services__img--monitor {
+                    width: 51px;
+                    height: 45px;
+                }
+                .services__img--back {
+                    width: 45px;
+                    height: 45px;
+                }
+                .services__img--const {
+                    width: 38px;
+                    height: 44px;
+                }
+                .services__h4 {
+                    padding: 17px 0;
+                }
+                .services__p {
+                    color: #000000;
+                    font-size: 14px;
+                    font-weight: 600;
                 }
             }
+            .services__column--front {
+                margin-bottom: 19px;
+            }
+            .services__column--back {
+                padding-right: 20px;
+                padding-left: 20px;
+            }
+            .services__column--cont {
+                margin-bottom: 39px;
+            }
         }
     }
+}
 
-@media (max-width:679px){
-.services {
-    .services_h5 {
-        font-size: 32px;
-    }
-    .services__container {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        margin-top: 41px;
-        padding-left: 95px;
-        padding-right: 95px;
-        .services__column {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            flex-wrap: wrap;
-            max-width: 290px;
-            .services__img--monitor {
-                width: 51px;
-                height: 45px;
-            }
-            .services__img--back {
-                width: 45px;
-                height: 45px;
-            }
-            .services__img--const {
-                width: 38px;
-                height: 44px;
-            }
-            .services__h4 {
-                color: #000000;
-                font-size: 24px;
-                font-weight: 700;
-                padding: 17px 0;
-            }
-            .services__p {
-                color: #000000;
-                font-size: 16px;
-                font-weight: 600;
-            }
-        }
-        .services__column--front {
-            margin-bottom: 19px;
-        }
-        .services__column--back {
-            padding-right: 20px;
-            padding-left: 20px;
-        }
-        .services__column--cont {
-            margin-bottom: 39px;
-        }
-    }
-}
-}
-@media (max-width:425px){
+@media (max-width:425px) {
     .about {
         transform: scale(0.8);
     }

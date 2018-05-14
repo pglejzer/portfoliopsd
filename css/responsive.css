@@ -94,24 +94,14 @@
     .footer .footer__text .footer__p {
       padding: 18px 0; } }
 @media (max-width: 679px) {
-  .services .services_h5 {
-    font-size: 32px; }
-  .services .services__container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    margin-top: 41px;
-    padding-left: 95px;
-    padding-right: 95px; }
-    .services .services__container .services__column {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      flex-wrap: wrap;
-      max-width: 290px; }
+  .services {
+    margin: 0 20px; }
+    .services .services_h5 {
+      font-size: 32px;
+      padding-top: 80px; }
+    .services .services__container {
+      margin-top: 20px;
+      padding: 0 20px; }
       .services .services__container .services__column .services__img--monitor {
         width: 51px;
         height: 45px; }
@@ -122,21 +112,18 @@
         width: 38px;
         height: 44px; }
       .services .services__container .services__column .services__h4 {
-        color: #000000;
-        font-size: 24px;
-        font-weight: 700;
         padding: 17px 0; }
       .services .services__container .services__column .services__p {
         color: #000000;
-        font-size: 16px;
+        font-size: 14px;
         font-weight: 600; }
-    .services .services__container .services__column--front {
-      margin-bottom: 19px; }
-    .services .services__container .services__column--back {
-      padding-right: 20px;
-      padding-left: 20px; }
-    .services .services__container .services__column--cont {
-      margin-bottom: 39px; } }
+      .services .services__container .services__column--front {
+        margin-bottom: 19px; }
+      .services .services__container .services__column--back {
+        padding-right: 20px;
+        padding-left: 20px; }
+      .services .services__container .services__column--cont {
+        margin-bottom: 39px; } }
 @media (max-width: 425px) {
   .about {
     transform: scale(0.8); } }
