@@ -301,7 +301,7 @@ $black:rgb(0,0,0);
             padding-left: 20px;
         }
         .services__column--cont {
-            margin-bottom: 39px;
+            margin-bottom: 32px;
         }
     }
 }
@@ -349,9 +349,9 @@ $black:rgb(0,0,0);
                         transform: translateY(55%);
                         text-decoration: none;
                         .fsad {
-                            border: 1px solid $white;
+                            border: 2px solid $white;
                             border-radius: 100%;
-                            padding: 10px;
+                            padding: 9px;
                             color: $white;
                             &:hover {
                                 background-color: $black;
@@ -366,7 +366,6 @@ $black:rgb(0,0,0);
                         left: 0;
                         right: 0;
                         color: $white;
-                        ;
                         font-size: 30px;
                         font-weight: 700;
                     }
@@ -413,7 +412,7 @@ $black:rgb(0,0,0);
         }
         .portfolio__button {
             box-shadow: -1px 10px 24px rgba(0, 0, 0, 0.18);
-            border: 1px solid $blacker;
+            border: 2px solid $blacker;
             background-color: $black;
             color: $white;
             font-size: 16px;
