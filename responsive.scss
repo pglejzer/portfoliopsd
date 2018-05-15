@@ -333,17 +333,20 @@
             .portfolio__gallery {
                 .portoflio__row {
                     .portfolio__icons {
-                        top: 100px;
+                        top: 120px;
+                        left:50px;
+                        .portfolio__icons--a {}
                         .portfolio__icons--text {
                             font-size: 20px;
-                            top: -40px;
-                            bottom: 120px;
+                            top: -30px;
+                            bottom: 100px;
                             left: 0;
                             right: 0;
+                            width:100px;
                         }
-                    }
                 }
             }
-        }
+        }}
     }
 }
+
