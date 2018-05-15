@@ -81,3 +81,7 @@ $(document).ready(function ($) {
         $(".nav__button--toggle").trigger('click');
     });
 });
+window.sr = ScrollReveal();
+sr.reveal('.about');
+sr.reveal('.about__bar', { duration: 1200 });
+sr.reveal('.portoflio__img', {duration: 2000 }, 50);
