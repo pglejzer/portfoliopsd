@@ -8,17 +8,27 @@
     .services .services__container .services__column--back {
       padding-top: 10px; }
     .services .services__container .services__column--cont {
-      padding-top: 30px; } }
+      padding-top: 30px; }
+
+  .form .form__container .form__text {
+    flex-wrap: wrap; }
+    .form .form__container .form__text .form__main .form__row {
+      flex-direction: column; }
+    .form .form__container .form__text .form__main input[type=email] {
+      margin-left: 0;
+      padding-top: 50px; } }
 @media (max-width: 1205px) {
-  .portfolio .portfolio__container .portfolio__gallery .portoflio__row {
-    display: flex;
-    justify-content: center;
-    align-items: center; }
-    .portfolio .portfolio__container .portfolio__gallery .portoflio__row .portoflio__img {
-      display: inline-block;
-      padding: 15px;
-      width: 50%;
-      height: auto; } }
+  .portfolio .portfolio__container {
+    padding-bottom: 50px; }
+    .portfolio .portfolio__container .portfolio__gallery .portoflio__row {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .portfolio .portfolio__container .portfolio__gallery .portoflio__row .portoflio__img {
+        display: inline-block;
+        padding: 15px;
+        width: 50%;
+        height: auto; } }
 @media (max-width: 1115px) {
   .about .about__header {
     padding: 0 12px; }
@@ -80,11 +90,18 @@
     animation-duration: 0.6s; }
 
   .funfact .funfact__container {
+    font-size: 5px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     padding-top: 30px;
     padding-bottom: 20px; }
+    .funfact .funfact__container .funfact__column .funfact__h6 {
+      font-size: 80px; }
+    .funfact .funfact__container .funfact__column .funfact__p {
+      color: #ffffff;
+      font-size: 20px;
+      font-weight: 400; }
 
   .footer {
     padding: 25px 0; }
@@ -114,7 +131,6 @@
       .services .services__container .services__column .services__h4 {
         padding: 17px 0; }
       .services .services__container .services__column .services__p {
-        color: #000000;
         font-size: 14px;
         font-weight: 600; }
       .services .services__container .services__column--front {
@@ -123,9 +139,61 @@
         padding-right: 20px;
         padding-left: 20px; }
       .services .services__container .services__column--cont {
-        margin-bottom: 39px; } }
+        margin-bottom: 39px; }
+
+  .form .form__container .form__h4 {
+    font-size: 30px; }
+  .form .form__container .form__text {
+    padding: 50px 15px; }
+    .form .form__container .form__text .form__main input[type=text],
+    .form .form__container .form__text .form__main input[type=email] {
+      min-width: 290px; }
+    .form .form__container .form__text .form__main textarea {
+      max-width: 679px;
+      max-height: 400px; }
+  .form .form__btn {
+    padding-bottom: 45px; } }
+@media (max-width: 463px) {
+  .header {
+    background: url(../images/home/everythingg.png) no-repeat center;
+    background-size: cover;
+    height: auto;
+    min-height: 800px; }
+    .header .header__text {
+      padding-top: 314px;
+      padding-left: 20px;
+      padding-right: 20px; }
+      .header .header__text .header__h1 {
+        font-size: 46px;
+        font-weight: 700; }
+      .header .header__text .header__p {
+        color: #212121;
+        font-size: 22px;
+        font-weight: 400; }
+      .header .header__text .header__buttons {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 25px; }
+        .header .header__text .header__buttons .header_a {
+          text-decoration: none; }
+          .header .header__text .header__buttons .header_a .header__button {
+            color: #ffffff;
+            font-size: 13px;
+            font-weight: 500;
+            padding: 15px 24px;
+            background-color: #212121;
+            border: 1px solid #212121;
+            cursor: pointer; }
+            .header .header__text .header__buttons .header_a .header__button:hover, .header .header__text .header__buttons .header_a .header__button:focus {
+              background-color: #ffffff;
+              color: #212121; }
+          .header .header__text .header__buttons .header_a .header__button--hire {
+            margin-right: 20px; } }
 @media (max-width: 425px) {
   .about {
-    transform: scale(0.8); } }
+    transform: scale(0.8); }
+
+  .portfolio .portfolio__container .portfolio__gallery .portoflio__row .portoflio__img {
+    width: 80%; } }
 
 /*# sourceMappingURL=responsive.css.map */

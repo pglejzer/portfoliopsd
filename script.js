@@ -3,11 +3,11 @@ $(document).ready(function () {
         var percentage = parseInt($(this).html());
         if (percentage > 0) {
             $(this).animate({
-                'width': '' + percentage + 'px'
+                'width':  '' + percentage + 'px'
             }, 800);
         } else {
             $(this).css({
-                'color': '#212121',
+                'color': 'black',
                 'background': 'none'
             }, 800);
         }
