@@ -356,7 +356,6 @@ $black:rgb(0,0,0);
                             &:hover {
                                 background-color: $black;
                                 color: $white;
-                                cursor: pointer;
                             }
                         }
                     }
@@ -398,6 +397,11 @@ $black:rgb(0,0,0);
                 &:hover {
                     .portfolio__icons--a:nth-child(3) {
                         transition-delay: 0.2s;
+                    }
+                }
+                &:hover {
+                    .portfolio__icons--a:nth-child(4) {
+                        transition-delay: 0.3s;
                     }
                 }
             }
