@@ -81,5 +81,7 @@ $(document).ready(function ($) {
         $(".nav__button--toggle").trigger('click');
     });
 });
+
+
 window.sr = ScrollReveal();
 sr.reveal('.portoflio__img', {duration: 2000 }, 50);
