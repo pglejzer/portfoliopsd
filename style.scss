@@ -335,7 +335,7 @@ serif;
                     position: absolute;
                     top: 190px;
                     bottom: 0;
-                    left:77px;
+                    left: 77px;
                     right: 40px;
                     display: flex;
                     flex-direction: row;
@@ -350,26 +350,27 @@ serif;
                             border-radius: 100%;
                             padding: 10px;
                             color: #fff;
-                            &:hover{
+                            &:hover {
                                 background-color: #000;
                                 color: #ffffff;
                                 cursor: pointer;
                             }
                         }
                     }
-                    .portfolio__icons--text{
+                    .portfolio__icons--text {
                         position: relative;
-                        top:-40px;
+                        top: -40px;
                         bottom: 100px;
                         left: 0;
                         right: 0;
-                        color:#fff;;
+                        color: #fff;
+                        ;
                         font-size: 30px;
                         font-weight: 700;
                     }
-                    .portfolio__icons--down{
+                    .portfolio__icons--down {
                         position: relative;
-                        top:0;
+                        top: 0;
                         bottom: 100px;
                         left: -150px;
                         right: 0;
@@ -381,18 +382,18 @@ serif;
                 &:hover {
                     opacity: 1;
                     transform: translateX(0);
-                    .portfolio__icons--a{
+                    .portfolio__icons--a {
                         opacity: 1;
                         transform: translateX(0);
                     }
                 }
-                &:hover{
-                    .portfolio__icons--a:nth-child(2){
+                &:hover {
+                    .portfolio__icons--a:nth-child(2) {
                         transition-delay: 0.1s;
                     }
                 }
-                &:hover{
-                    .portfolio__icons--a:nth-child(3){
+                &:hover {
+                    .portfolio__icons--a:nth-child(3) {
                         transition-delay: 0.2s;
                     }
                 }
