@@ -3,6 +3,9 @@ $font-second:'Montserrat',
 sans-serif;
 $font-main:'Cormorant',
 serif;
+$white:rgb(255,255,255);
+$blacker:rgb(33,33,33);
+$black:rgb(0,0,0);
 * {
     margin: 0;
     padding: 0;
@@ -10,7 +13,7 @@ serif;
 }
 
 .header {
-    background: url(../images/home/everythingg.png) no-repeat center;
+    background: url('../images/home/everythingg.png') no-repeat center;
     background-size: cover;
     height: auto;
     min-height: 800px;
@@ -28,7 +31,7 @@ serif;
             align-items: center;
             text-decoration: none;
             .nav__logo--text {
-                color: #212121;
+                color: $blacker;
                 font-family: $font-second;
                 font-size: 24px;
                 font-weight: 700;
@@ -54,13 +57,13 @@ serif;
                 padding-left: 25px;
                 .nav__link {
                     text-decoration: none;
-                    color: #212121;
+                    color: $blacker;
                     font-size: 16px;
                     font-weight: 400;
                     text-transform: uppercase;
                     &:hover,
                     &:focus {
-                        border-bottom: 2px solid #212121;
+                        border-bottom: 2px solid $blacker;
                     }
                 }
             }
@@ -74,14 +77,14 @@ serif;
         padding-left: 128px;
         padding-right: 15px;
         .header__h1 {
-            color: #212121;
+            color: $blacker;
             font-size: 46px;
             font-weight: 700;
             text-transform: uppercase;
         }
         .header__p {
             opacity: 0.95;
-            color: #212121;
+            color: $blacker;
             font-size: 22px;
             font-weight: 400;
         }
@@ -92,17 +95,17 @@ serif;
             .header_a {
                 text-decoration: none;
                 .header__button {
-                    color: #ffffff;
+                    color: $white;
                     font-size: 16px;
                     font-weight: 500;
                     padding: 20px 29px;
-                    background-color: #212121;
-                    border: 1px solid #212121;
+                    background-color: $blacker;
+                    border: 1px solid $blacker;
                     cursor: pointer;
                     &:hover,
                     &:focus {
-                        background-color: #ffffff;
-                        color: #212121;
+                        background-color: $white;
+                        color: $blacker;
                     }
                 }
                 .header__button--hire {
@@ -116,9 +119,9 @@ serif;
 .nav__sticky {
     height: 50px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
-    transition: .6s ease-in-out;
-    background: #fff;
-    opacity: .95;
+    transition: 0.6s ease-in-out;
+    background: $white;
+    opacity: 0.95;
 }
 
 .about {
@@ -136,7 +139,7 @@ serif;
         align-items: center;
         flex-direction: column;
         .about__h2 {
-            color: #000000;
+            color: $black;
             font-size: 36px;
             font-weight: 400;
         }
@@ -147,7 +150,7 @@ serif;
             max-width: 543px;
             padding-top: 40px;
             .about__p--text {
-                color: #212121;
+                color: $blacker;
                 font-size: 16px;
                 font-weight: 400;
                 line-height: 26px;
@@ -159,16 +162,16 @@ serif;
                     width: 208px;
                     height: 51px;
                     margin-top: 28px;
-                    color: #fff;
+                    color: $white;
                     font-size: 16px;
                     font-weight: 500;
                     box-shadow: -1px 10px 18px rgba(0, 0, 0, 0.15);
-                    background-color: #212121;
+                    background-color: $blacker;
                     border: 1px solid black;
                     cursor: pointer;
                     &:hover {
-                        color: #000;
-                        background: #fff;
+                        color: $black;
+                        background:$white;
                     }
                 }
             }
@@ -178,7 +181,7 @@ serif;
         text-align: center;
         margin-top: 120px;
         .about__h5 {
-            color: #000000;
+            color: $black;
             font-size: 36px;
             font-weight: 400;
         }
@@ -193,7 +196,7 @@ serif;
                 .about__h {
                     .about__h6 {
                         text-align: left;
-                        color: #000000;
+                        color: $black;
                         padding-bottom: 11px;
                         font-size: 24px;
                         font-weight: 400;
@@ -208,8 +211,8 @@ serif;
                             width: inherit;
                             text-align: left;
                             height: 15px;
-                            color: #000;
-                            background: #000;
+                            color: $black;
+                            background: $black;
                             font-size: 1px;
                         }
                     }
@@ -227,7 +230,7 @@ serif;
 
 .background__img {
     height: 401px;
-    background: url(../images/services/img.jpg) no-repeat center;
+    background: url('../images/services/img.jpg') no-repeat center;
     background-size: cover;
     z-index: -10;
 }
@@ -241,10 +244,10 @@ serif;
     min-height: 517px;
     height: auto;
     box-shadow: 0 0 40px 9px rgba(0, 0, 0, 0.15);
-    background-color: #ffffff;
+    background-color: $white;
     text-align: center;
     .services_h5 {
-        color: #000000;
+        color: $black;
         font-size: 36px;
         font-weight: 400;
         text-transform: uppercase;
@@ -279,13 +282,13 @@ serif;
                 height: 44px;
             }
             .services__h4 {
-                color: #000000;
+                color: $black;
                 font-size: 24px;
                 font-weight: 700;
                 padding: 17px 0;
             }
             .services__p {
-                color: #000000;
+                color: $black;
                 font-size: 16px;
                 font-weight: 600;
             }
@@ -309,7 +312,7 @@ serif;
     .portfolio__container {
         text-align: center;
         .portfolio__p {
-            color: #000000;
+            color: $black;
             font-size: 36px;
             font-weight: 400;
             text-transform: uppercase;
@@ -328,7 +331,7 @@ serif;
                     padding: 15px;
                     &:hover {
                         filter: grayscale(90%);
-                        transition: .7s;
+                        transition:0.7s;
                     }
                 }
                 .portfolio__icons {
@@ -346,13 +349,13 @@ serif;
                         transform: translateY(55%);
                         text-decoration: none;
                         .fsad {
-                            border: 1px solid #fff;
+                            border: 1px solid $white;
                             border-radius: 100%;
                             padding: 10px;
-                            color: #fff;
+                            color: $white;
                             &:hover {
-                                background-color: #000;
-                                color: #ffffff;
+                                background-color: $black;
+                                color: $white;
                                 cursor: pointer;
                             }
                         }
@@ -363,7 +366,7 @@ serif;
                         bottom: 100px;
                         left: 0;
                         right: 0;
-                        color: #fff;
+                        color: $white;
                         ;
                         font-size: 30px;
                         font-weight: 700;
@@ -406,9 +409,9 @@ serif;
         }
         .portfolio__button {
             box-shadow: -1px 10px 24px rgba(0, 0, 0, 0.18);
-            border: 1px solid #212121;
-            background-color: #000;
-            color: #fff;
+            border: 1px solid $blacker;
+            background-color: $black;
+            color: $white;
             font-size: 16px;
             font-weight: 500;
             padding: 20px 40px;
@@ -416,16 +419,16 @@ serif;
             cursor: pointer;
             &:hover,
             &:focus {
-                background-color: #fff;
-                color: #000;
-                transition: .6s;
+                background-color: $white;
+                color: $black;
+                transition: 0.6s;
             }
         }
     }
 }
 
 .funfact {
-    background: url(../images/portfoolio/paralax-img.png) no-repeat center;
+    background: url('../images/portfoolio/paralax-img.png') no-repeat center;
     height: auto;
     min-height: 300px;
     background-size: cover;
@@ -442,12 +445,12 @@ serif;
             justify-content: center;
             flex-direction: column;
             .funfact__h6 {
-                color: #ffffff;
+                color: $white;
                 font-size: 100px;
                 font-weight: 300;
             }
             .funfact__p {
-                color: #ffffff;
+                color: $white;
                 font-size: 30px;
                 font-weight: 400;
             }
@@ -461,7 +464,7 @@ serif;
     .form__container {
         text-align: center;
         .form__h4 {
-            color: #000000;
+            color: $black;
             font-size: 36px;
             font-weight: 400;
             text-transform: uppercase;
@@ -481,7 +484,7 @@ serif;
                 input[type=text],
                 input[type=email] {
                     border: none;
-                    border-bottom: 1px solid #000000;
+                    border-bottom: 1px solid $black;
                     min-width: 570px;
                 }
                 input[type=email] {
@@ -490,14 +493,14 @@ serif;
                 textarea {
                     margin-top: 54px;
                     border: none;
-                    border-bottom: 1px solid #000;
+                    border-bottom: 1px solid $black;
                     max-width: 1200px;
                     max-height: 300px;
                 }
                 input[type=text]::placeholder,
                 input[type=email]::placeholder,
                 textarea::placeholder {
-                    color: #000000;
+                    color: $black;
                     font-size: 16px;
                     font-weight: 400;
                     padding: 10px 10px;
@@ -509,19 +512,19 @@ serif;
         .form__a {
             text-decoration: none;
             .form__button {
-                color: #212121;
+                color: $blacker;
                 box-shadow: -1px 14px 24px rgba(0, 0, 0, 0.18);
-                border: 1px solid #212121;
-                background-color: #ffffff;
+                border: 1px solid $blacker;
+                background-color: $white;
                 font-size: 16px;
                 padding: 20px 56px 20px 46px;
                 font-weight: 500;
                 margin-top: 41px;
                 cursor: pointer;
                 &:hover {
-                    color: #fff;
-                    background: #000;
-                    transition: .5s;
+                    color: $white;
+                    background: $black;
+                    transition: 0.5s;
                 }
                 .form__img {
                     margin-left: 4px;
@@ -534,7 +537,7 @@ serif;
 .footer {
     min-height: 103px;
     height: auto;
-    background: #000;
+    background: $black;
     padding-left: 99px;
     padding-top: 34px;
     .footer__container {
@@ -549,17 +552,17 @@ serif;
                 .fab {
                     padding: 11px;
                     border-radius: 100%;
-                    border: 1px solid #fff;
-                    color: #fff;
+                    border: 1px solid $white;
+                    color: $white;
                 }
                 .fb,
                 .tw,
                 .lin,
                 .gp {
                     &:hover {
-                        background: #fff;
+                        background: $white;
                         color: rgb(66, 103, 178);
-                        transition: .5s;
+                        transition: 0.5s;
                     }
                 }
                 .gp {
@@ -586,7 +589,7 @@ serif;
             flex-wrap: wrap;
             text-align: center;
             .footer__p {
-                color: #ffffff;
+                color: $white;
                 font-size: 16px;
                 font-weight: 400;
             }
@@ -595,12 +598,12 @@ serif;
     .footer__a--btn {
         text-decoration: none;
         .footer__up {
-            color: #000;
-            background: #fff;
+            color: $black;
+            background: $white;
             padding: 15px 20px;
             border-radius: 100%;
             &:hover {
-                transition: .5s;
+                transition: 0.5s;
                 background: rgb(66, 103, 178);
             }
         }

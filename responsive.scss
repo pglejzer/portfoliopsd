@@ -107,7 +107,7 @@
                         &:hover,
                         &:focus {
                             color: #0077b5;
-                            transition: .6s;
+                            transition: 0.6s;
                             border-bottom: none;
                         }
                     }
@@ -276,7 +276,7 @@
 
 @media (max-width:463px) {
     .header {
-        background: url(../images/home/everythingg.png) no-repeat center;
+        background: url('../images/home/everythingg.png') no-repeat center;
         background-size: cover;
         height: auto;
         min-height: 800px;
